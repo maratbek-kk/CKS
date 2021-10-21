@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 167px;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-link {
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #050505;
+    text-decoration: none;
+}
