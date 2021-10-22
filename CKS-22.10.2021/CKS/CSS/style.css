@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 167px;
+    background-color: #b4d7f2;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: auto;
+}
+.logo{
+margin-left: 150px;
+}
+.logo1 {
+
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-link {
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #050505;
+    text-decoration: none;
+}
+.menu-link active {
+text-align: center;
+}
