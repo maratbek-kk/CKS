@@ -1,2 +1,2 @@
 # CKS-new
-https://cksvolunteers.github.io/CKS-new/
+https://maratbek-kk.github.io/CKS/
